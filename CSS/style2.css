@@ -1,0 +1,76 @@
+/* Add custom styles for the search bar and results */
+.container {
+    text-align: center;
+  }
+  
+  .search {
+    margin-top: 20px;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #results {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .result-card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .result-card h4 {
+    margin: 0 0 10px;
+  }
+  
+  .result-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 18px;
+    background-color:  #0055a4;;
+  }
+  
+  .card-image {
+    border: 1px solid #888;
+    border-radius: 8px;
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+  }
+  
+  .card-info {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .book-name {
+    color: #EDF5E1;
+    font-weight: bold;
+  }
+  
+  .author {
+    color: #888;
+  }
+  
+  
