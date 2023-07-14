@@ -42,7 +42,7 @@ function showSuccessMessage() {
 
 
 setTimeout(showSuccessMessage, 3500);
-  })
+  }) 
   .catch(error => {
     failureMessage.classList.remove('hiddened');
     function showFailureMessage() {

@@ -3,7 +3,7 @@ const resultsList = document.getElementById('results');
 const deleteBtnn = document.getElementById('deleteBtnn')
 
 deleteBtnn.style.display = 'none'
-
+let a
 function fetchRecords() {
   const searchText = searchInput.value.trim();
 
